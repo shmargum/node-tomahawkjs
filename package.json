@@ -1,10 +1,10 @@
 {
   "name": "tomahawkjs",
   "preferGlobal": true,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "Uwe L. Korn <uwelk@xhochy.com>",
   "description": "Implementation of the JS plugins API from Tomahawk for NodeJS",
-  "contributors": [],
+  "contributors": ["Maxim Ivanov <mivanov1@gmail.com>"],
   "main": "./lib/tomahawkjs.js",
   "bin": {
     "tomahawkjs": "cli.js"
@@ -21,8 +21,10 @@
   "dependencies": {
     "async": "^0.9.0",
     "pullstream": "~0.4.0",
+    "rsvp": "~3.3.3",
     "underscore": "^1.8.3",
-    "unzip": "~0.1.11"
+    "unzip": "~0.1.11",
+    "xmlhttprequest": "~1.8.0"
   },
   "license": "MIT",
   "engines": {
